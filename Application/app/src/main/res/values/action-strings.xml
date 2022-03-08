@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Action String for Monitor Screen  -->
+    <string name="action_menu_screen">Menu</string>   
+    <string name="action_start_service">Start</string>
+    <string name="action_stop_service">Stop</string>
+    <string name="action_start_stream">Start</string>
+    <string name="action_stop_stream">Stop</string>
+    <string name="action_start_record">Screen Record</string>
+    <string name="action_stop_record">Stop Recording</string>
+    <string name="action_screen_play">Screen Play</string>
+    <string name="action_screen_shot">Screen Shot</string>
+    <string name="action_screen_record">Screen Record</string>
+    <string name="action_screen_share">Screen Share</string>
+    <string name="action_camera_cannot_open">Camera Not Open</string>
+</resources>

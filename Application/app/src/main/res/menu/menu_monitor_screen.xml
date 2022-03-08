@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_start"
+        android:title="@string/action_start_service"
+        app:showAsAction="ifRoom"/>
+    
+    <item 
+        android:id="@+id/action_menu_screen"
+        android:title="@string/action_menu_screen"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/menu_screen_monitor">
+         
+                
+                <item android:id="@+id/action_play"
+                    android:title="@string/action_screen_play"/>
+                
+                <item android:id="@+id/action_shot"
+                    android:title="@string/action_screen_shot"/>
+
+                <item android:id="@+id/action_record"
+                    android:title="@string/action_screen_record"/>
+
+                <item android:id="@+id/action_stream"
+                    android:title="@string/action_screen_share"/>
+            </group>
+        </menu>
+    </item>
+    
+    
+</menu>
+
+
